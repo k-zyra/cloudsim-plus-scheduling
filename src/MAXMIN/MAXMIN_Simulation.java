@@ -57,7 +57,6 @@ public class MAXMIN_Simulation extends WSO_Simulation {
 
     	long minId = Collections.min(vmUtilization.entrySet(), Map.Entry.comparingByValue()).getKey();       
         Vm vmToSubmit = vmList.get((int)minId);
-        System.out.println("min ID " + minId);
         submitNext(vmToSubmit);
 	}
 	

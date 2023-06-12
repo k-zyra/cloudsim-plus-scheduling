@@ -221,7 +221,7 @@ public class WSO_Simulation {
     	Log.setLevel(ch.qos.logback.classic.Level.WARN);
     	
     	algorithm = algorithmName;
-    	System.out.println("Starting " + algorithm + " Dynamic Scheduler...");
+    	System.out.println("Starting " + algorithm + " Scheduler...");
     	    	
         try {
         	// Create hosts 
